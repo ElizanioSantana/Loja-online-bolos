@@ -2,7 +2,7 @@
 $host = 'localhost';
 $dbname = 'loja_bolos';
 $user = 'root';
-$pass = 'thmpv77d6f';
+$pass = 'senha do banco de dados';
 
 
 try {
