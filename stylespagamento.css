@@ -1,0 +1,87 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #5d3fd3;
+}
+
+.metodo-pagamento {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.metodo-pagamento label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+    color: #333;
+    cursor: pointer;
+}
+
+.opcao-pagamento {
+    margin-top: 20px;
+    display: none;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1em;
+    background-color: #f9f9ff;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+    border-color: #5d3fd3;
+    outline: none;
+}
+
+button {
+    background-color: #38a169;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #2d8355;
+}
+
+.total {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.pix-qrcode {
+    width: 200px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
